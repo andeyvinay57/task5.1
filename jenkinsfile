@@ -1,5 +1,6 @@
 
-properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'h                                                                                                                ttps://github.com/andeyvinay57/task5.1.git/'], pipelineTriggers([githubPush()])]                                                                                                                )
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/andeyvinay57/task5.1.git/'], pipelineTriggers([githubPush()])])
+
 
 pipeline {
 
@@ -44,4 +45,5 @@ pipeline {
                       }
 
                      }
-                     }
+
+                    }
